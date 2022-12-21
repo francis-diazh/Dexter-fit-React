@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import CartWidget from './CartWidget';
 
 
@@ -7,30 +8,25 @@ const Navbar = () => {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="*">Dexter-Fit</a>
+          <Link className="navbar-brand" to={"/"}>Dexter-FIT</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav me-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="*">Home
+                <NavLink className="nav-link" to={"/category/proteinas"}>Proteinas
                   <span className="visually-hidden">(current)</span>
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="*">Ubicacion</a>
+                <NavLink className="nav-link" to={"/category/aminoacidos"}>Aminoacidos</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="*">Contacto</a>
+                <NavLink className="nav-link" to={"/category/creatinas"}>Creatinas</NavLink>
               </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="*" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="*">Proteinas</a>
-                  <a className="dropdown-item" href="*">Creatinas</a>
-                  <a className="dropdown-item" href="*">Aminoacidos</a>
-                </div>
+              <li className="nav-item">
+                <NavLink className="nav-link" to={"/category/barras"}>Barras Proteicas</NavLink>
               </li>
             </ul>
             <form className="d-flex">
@@ -46,4 +42,6 @@ const Navbar = () => {
 }
 
 export default Navbar; 
+
+
 

@@ -1,0 +1,7 @@
+[
+    {"id":1, "nombre":"Proteinas", "descripcion": "La principal función de las proteínas es contribuir con la regeneración muscular. Algunos de los beneficios son: su consumo fácil, su bajo contenido en azúcares y grasas y la posible reducción del apetito.","imagen": "./img/proteina.jpg", "precio":5500, "stock":10, "categoria":"proteinas" },
+    {"id":2, "nombre":"Aminoacidos", "descripcion": "Los aminoácidos son compuestos orgánicos que se combinan para formar proteínas, las cuales son indispensables para nuestro organismo.","imagen": "./img/aminoacidos.jpg", "precio":4600, "stock":15,"categoria":"aminoacidos" },
+    {"id":3, "nombre":"Creatinas", "descripcion": "La creatina es una sustancia química que se encuentra naturalmente en el cuerpo. Se utiliza para mejorar el rendimiento del ejercicio y la masa muscular","imagen": "./img/creatina.jpg", "precio":5200, "stock":20,"categoria":"creatinas" },
+    {"id":4, "nombre":"Barras proteicas", "descripcion": "Las barritas de proteínas son perfectas para la fase de recuperación.Tómalas justo después del ejercicio para combatir la bajada de energía que se produce durante la práctica de deporte y nutrir correctamente tus músculos.","imagen": "./img/barraproteica.jpg", "precio":1000, "stock":25,"categoria":"barras" }
+
+]
